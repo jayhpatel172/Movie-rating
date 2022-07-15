@@ -1,0 +1,55 @@
+<p class="header">
+    <mat-toolbar class="toolbar">
+        <span style="color: #BBE2E3;">Movies Review</span>
+        <span class="spacer"></span>
+        <button class="logout-button" style="color: #BBE2E3;" mat-icon-button (click)="logout()" aria-label="logout icon">
+            <mat-icon style="margin-right: 5px;"> power_settings_new</mat-icon>Logout
+        </button>
+    </mat-toolbar>
+</p>
+<div class="movies-list">
+    <div class="movies-catgory">
+        <div class="trending-movies">
+            <div class="title">
+                <h1 class="title-text" style="color:#225254;font-family: fantasy;">TRENDING MOVIES</h1>
+                <a style="color:#225254;" [routerLink]="['/all-movies','TRENDING']">View All</a>
+            </div>
+            <div class="movie-list-posters">
+                <div *ngFor="let movie of trendingMovies" (click)="viewMovie(movie)" class="movie">
+                    <img [src]="movie.url" [alt]="movie.name" width="140" height="150">
+                    <P style="color:#225254;font-family: fantasy;">{{ movie.name }}</P>
+                    <div class="start-rating">
+                        <app-star-rating [rating]="movie.rating"  [starCount]="starCount"></app-star-rating>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popular-movies">
+            <div class="title">
+                <h1 class="title-text" style="color:#225254;font-family: fantasy;">POPULAR MOVIES</h1>
+                <a style="color:#225254;" [routerLink]="['/all-movies','POPULAR']">View All</a>
+            </div>
+            <div class="movie-list-posters">
+                <div *ngFor="let movie of popularMovies" (click)="viewMovie(movie)" class="movie">
+                    <img [src]="movie.url" [alt]="movie.name" width="140" height="150">
+                    <P style="color:#225254;font-family: fantasy;">{{ movie.name }}</P>
+                    <app-star-rating [rating]="movie.rating"  [starCount]="starCount"></app-star-rating>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all-time-popular-movies">
+        <div class="all-time-popular-movies-content">
+            <h1 class="title-text" style="color:#225254;font-family: fantasy;">ALL TIME POPULAR MOVIES</h1>
+            <div class="all-time-popular-movies-list">
+                <div *ngFor="let movie of allTimePupular" (click)="viewMovie(movie)" class="movie">
+                    <P style="color:#225254;font-family: fantasy;">{{ movie.name }}</P>
+                    <app-star-rating [rating]="movie.rating"  [starCount]="starCount"></app-star-rating>
+                </div>
+            </div>
+            <div style="margin-top: 20px;">
+                <a style="color:#225254;" [routerLink]="['/all-movies','ALL TIME POPULAR']">View All</a>
+            </div>
+        </div>
+    </div>
+</div>

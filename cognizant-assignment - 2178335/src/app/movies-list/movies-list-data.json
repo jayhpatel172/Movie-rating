@@ -1,0 +1,294 @@
+
+   [{
+        "name": "The Waterman",
+        "id":0,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/the-water-man-poster-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Thor: Love and Thunder",
+        "id":1,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2019/07/thor-love-and-thunder-poster.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Jurassic World 3",
+        "id":2,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2020/02/jurassic-world-3-poster.jpg",
+        "catagory":"all-time-popular"
+    },{
+        "name": "Space Jam",
+        "id":3,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/spacejam-2-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "The Bad Guys",
+        "id":4,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2022/03/the-bad-guys-poster.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "The Bubble",
+        "id":5,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2022/03/the-bubble-poster.jpg",
+        "catagory":"all-time-popular"
+    },{
+        "name": "Adam Project",
+        "id":6,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2022/03/adam-project-poster.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Fantastic Beasts: Dubmbledore",
+        "id":7,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/10/fantastic-beasts-dumbledore-poster.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Sonic 2",
+        "id":8,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2022/02/sonic-2-poster.jpg",
+        "catagory":"all-time-popular"
+    },{
+        "name": "Dr Strange",
+        "id":9,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2019/09/doctor-strange-new-poster.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "The Batman",
+        "id":10,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2019/06/the-batman-poster-3.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Secrets of Dubmbledore",
+        "id":12,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/10/secrets-of-dumbledore-poster.jpg",
+        "catagory":"all-time-popular"
+    },{
+        "name": "Scream",
+        "id":13,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/scream-2022-poster.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Operation Fortune",
+        "id":14,
+        "rating":2,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/11/operation-fortune-poster-final.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Spiderman: No Way Home",
+        "id":15,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/02/spider-man-no-way-home-poster.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Resident-Evil",
+        "id":16,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/09/resident-evil-welcome-to-racoon-city-poster.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Clifford-the big red dog",
+        "id":17,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2019/12/clifford-the-big-red-dog-poster.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Addams family",
+        "id":18,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2020/10/addams-family-2-new-poster-date.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Encanto",
+        "id":19,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/09/encanto-poster.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Venom",
+        "id":20,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2019/12/venom-let-there-be-carnage-poster-2-819x1024-1.jpg",
+        "catagory":"all-time-popular"
+    },
+    {
+        "name": "Vacation Friends",
+        "id":21,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/07/vacation-friends-poster-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "No Time To Die",
+        "id":22,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/07/rsz_nttd_officialposter_2021-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Fear Street",
+        "id":23,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/07/fear-steet-1666-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Comeback Trail",
+        "id":24,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/comeback-trail-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Sing 2",
+        "id":25,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/sing-2-movie-poster-4-2.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Werewolves Within 2",
+        "id":26,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/werewolves-within-2.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Snake Eyes Character",
+        "id":27,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/snake-eyes-character-poster-7-2.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Misfits",
+        "id":28,
+        "rating":2,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/misfits-poster-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Rsz: Paw Patrol",
+        "id":29,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/rsz_paw_patrol_the_movie_poster-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Shang Chi",
+        "id":30,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/06/Shang-Chi-poster-4062076-1.jpg",
+        "catagory":"trending"
+    },
+    {
+        "name": "Spirit",
+        "id":31,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/05/spirit-untamed-poster-606490a67edf8-1-1.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "The Ice Road",
+        "id":32,
+        "rating":5,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/05/The-Ice-Road-poster-1-913-1.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Black Widow",
+        "id":33,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/05/black-widow-character-poster-2021-6-1.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Army of dead",
+        "id":34,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/army-of-the-dead-zack-snyder-poster-13-1.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Luca",
+        "id":35,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/luca-disney-pixar-trailer-poster-2021-1.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Mitchells vs Machines",
+        "id":36,
+        "rating":3,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/mitchells-vs-machines-2.jpg",
+        "catagory":"popular"
+    },
+    {
+        "name": "Peter Rabbit 2",
+        "id":37,
+        "rating":4,
+        "review":"",
+        "url":"https://www.joblo.com/wp-content/uploads/2021/04/peter-rabbit-2-1.jpg",
+        "catagory":"popular"
+    }]
+

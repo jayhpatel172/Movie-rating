@@ -1,0 +1,57 @@
+<p class="header">
+    <mat-toolbar class="toolbar">
+        <span style="color: #BBE2E3;">Movies Review</span>
+        <span class="spacer"></span>
+        <button class="logout-button" style="color: #BBE2E3;" mat-icon-button (click)="logout()" aria-label="logout icon">
+            <mat-icon style="margin-right: 5px;"> power_settings_new</mat-icon>Logout
+        </button>
+    </mat-toolbar>
+</p>
+<div class="movie" style="background: #BBE2E3;height: 100%;">
+    <div class="poster">
+        <h1 style="margin: 0 0 0 10px; font-weight: 500;color:#225254;font-family: fantasy;">{{moviename}}</h1>
+        <div class="start-rating" style="margin: 0 0 30px 0;">
+            <app-star-rating [rating]="rating"  [starCount]="starCount"></app-star-rating>
+        </div>
+        <img [src]="url" width="300" height="400">
+    </div>
+    <div class="review">
+        <h1 style="font-weight: 500;color:#225254;margin-top: 50px;"> <span *ngIf="submitForm">Submit a </span><span *ngIf="!submitForm"> Your </span> Review </h1>
+        <form fxLayout="column" fxLayoutAlign="center " #reviewForm="ngForm" (ngSubmit)="onSubmit(reviewForm)">
+            <mat-form-field *ngIf="submitForm" style="width: 435px; margin-top: 20px;">
+                <input 
+                type="text"
+                matInput 
+                placeholder="Enter Name" 
+                [ngModel]="userName" 
+                [disabled]="!submitForm"
+                name="name"
+                required
+                #name="ngModel">
+                <mat-error *ngIf="name.hasError('required')">Field must not be empty.</mat-error>
+            </mat-form-field>
+            <h2 *ngIf="!submitForm" style="width: 435px; margin: 30px 0 0 10px;color: #2E6F71;"> {{ userName }} </h2>
+            <div style="margin-top: 20px;">
+                <app-star-rating [rating]="userRating" [starCount]="starCount" (ratingUpdated)="updateUserRating($event)"[enableClick]="submitForm"></app-star-rating>
+            </div>
+            <h3 *ngIf="!submitForm"  style="width: 435px; margin: 30px 0 0 10px;color: #2E6F71;"> {{ userReview }}</h3>
+            <mat-form-field class="review-textarea" *ngIf="submitForm" style="width: 435px; margin-top: 20px;">
+                <textarea
+                    style="max-height: 500px;"
+                    type="text" 
+                    matInput 
+                    [disabled]="!submitForm"
+                    placeholder="Write a Review" 
+                    [ngModel]="userReview" 
+                    name="review"
+                    maxlength="200"
+                    #review="ngModel">
+                </textarea>
+                <mat-hint>{{ review.value?.length }} / 200 </mat-hint>
+            </mat-form-field>
+            <button *ngIf="submitForm" class="submit-button" style="margin: 70px 150px 0 150px;background-color:#225254;color: white;" mat-raised-button color="primary" [disabled]="reviewForm.invalid">Post Review</button>
+            <button *ngIf="!submitForm" class="edit-button" (click)="submitForm = true" style="margin: 70px 325px 0 0;background-color:#225254;color: white;" mat-raised-button color="primary">Edit Review</button>
+        </form>
+    </div>
+</div> 
+

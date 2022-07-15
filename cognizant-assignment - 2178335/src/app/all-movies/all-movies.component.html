@@ -1,0 +1,25 @@
+<p class="header">
+    <mat-toolbar class="toolbar">
+        <span style="color: #BBE2E3;">Movies Review</span>
+        <span class="spacer"></span>
+        <button class="logout-button" style="color: #BBE2E3;" mat-icon-button (click)="logout()" aria-label="logout icon">
+            <mat-icon style="margin-right: 5px;"> power_settings_new</mat-icon>Logout
+        </button>
+    </mat-toolbar>
+</p>
+<div style="background: #BBE2E3;">
+    <div class="title" style="padding:20px;text-align: center;color:#225254;">
+        <h1 style="font-family: fantasy;font-weight: 500;">{{ list }} MOVIES</h1>
+    </div>
+    <div *ngFor="let m of movies" class="movie-list">
+        <div class="movie" (click)="viewMovie(m)" >
+            <div style="display: flex;">
+                <img style="margin-left: 55px;" [src]="m.url" [alt]="m.name" width="140" height="150">
+                <h1 style="margin: auto auto auto 50px;color:#225254;font-family: fantasy;">{{m.name}}</h1>
+            </div>
+            <div style="margin: auto 55px auto auto;">
+                <app-star-rating [rating]="m.rating"  [starCount]="starCount"></app-star-rating>
+            </div>
+        </div>
+    </div>
+</div>

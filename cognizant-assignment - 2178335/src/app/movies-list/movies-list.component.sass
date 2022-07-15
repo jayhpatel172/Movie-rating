@@ -1,0 +1,95 @@
+.header
+    margin: 0
+
+.toolbar
+     background: #225254
+
+.spacer
+    flex: 1 1 auto
+
+.logout-button
+    margin-right: 30px
+
+.trending-movies, .all-time-popular-movies, .popular-movies
+    background: white
+
+.movies-list
+    height: 100%
+    width: 100%
+    display: flex
+    
+    .movies-catgory
+        width: 70%
+        height: 100%
+        
+
+        .trending-movies, .popular-movies
+            width: 100%
+            height: 50%
+            background: #BBE2E3
+
+            .title
+                display: flex
+                justify-content: space-between
+                padding: 20px
+
+                .title-text
+                    font-weight: 500
+
+            .movie-list-posters
+                width: 100%
+                height: 70%
+                display: flex
+                overflow: auto
+
+                .movie
+                    margin: 0 20px 0px 20px
+                    min-width: 10%
+                    height: 70%
+                    cursor: pointer
+
+
+    .all-time-popular-movies
+        width: 30%
+        height: 94%
+
+        .all-time-popular-movies-content
+            padding: 20px
+            height: 100%
+            background: #BBE2E3
+
+            .title-text
+                font-weight: 500
+
+            .all-time-popular-movies-list
+                max-height: 80%
+                overflow-y: auto
+
+            .movie
+                margin: 20px 0 0 0 
+                min-width: 80%
+                min-height: 10%
+                display: flex
+                justify-content: space-between
+                cursor: pointer
+                
+/* width */
+::-webkit-scrollbar 
+    width: 7px
+    height: 7px
+    cursor: pointer
+
+/* Track */
+::-webkit-scrollbar-track 
+    background: #BBE2E3
+      box-shadow: inset 0 0 5px grey
+
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+    background: #225254
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+    background: #225254
